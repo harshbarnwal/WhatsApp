@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/searchbar" android:title="@string/search"
+        android:icon="@drawable/ic_search" app:showAsAction="always"/>
+
+    <item android:id="@+id/new_group" android:title="@string/new_group_txt"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/new_broadcast" android:title="@string/new_broadcast"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/whatsapp_web" android:title="@string/whatsapp_web_txt"
+            app:showAsAction="never"/>
+
+    <item android:id="@+id/starred_messages" android:title="@string/starred_messages_txt"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/settings" android:title="@string/settings"
+        app:showAsAction="never"/>
+
+</menu>
